@@ -14,9 +14,10 @@ let notes = [
   },
   {
     id: '3',
-    content: 'GET and POST are the most important methods of HTTP protocol',
+    content: 'GET and POST are the most important methods of HTTP protocol!',
     important: true,
   },
+  
 ]
 
 const requestLogger = (request, response, next) => {
